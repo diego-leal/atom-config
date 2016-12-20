@@ -1,0 +1,100 @@
+"*":
+  editor:
+    confirmCheckoutHeadRevision: false
+    fontFamily: "Monaco"
+    fontSize: 14
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  core:
+    disabledPackages: [
+      "about"
+      "archive-view"
+      "autoflow"
+      "autosave"
+      "background-tips"
+      "bookmarks"
+      "deprecation-cop"
+      "dev-live-reload"
+      "encoding-selector"
+      "image-view"
+      "language-python"
+      "link"
+      "metrics"
+      "open-on-github"
+      "package-generator"
+      "release-notes"
+      "spell-check"
+      "styleguide"
+      "welcome"
+      "exception-reporting"
+      "language-clojure"
+      "language-c"
+      "keybinding-resolver"
+      "language-csharp"
+      "language-go"
+      "language-java"
+      "language-make"
+      "language-objective-c"
+      "language-perl"
+      "language-toml"
+    ]
+    audioBeep: false
+    themes: [
+      "atom-material-ui"
+      "gruvbox"
+    ]
+    autoHideMenuBar: true
+    ignoredNames: [
+      "._*"
+      ".apm"
+      ".DS_Store"
+      ".git-*"
+      ".git"
+      ".hg"
+      ".node-gyp"
+      ".svn"
+      "*.~*"
+      "*.gif"
+      "*.jpe?g"
+      "*.lock"
+      "*.mo"
+      "*.png"
+      "*.Trash*"
+      "*[-.]cache"
+      "bower_components"
+      "node_modules"
+      "vendor"
+    ]
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  "markdown-preview":
+    useGitHubStyle: true
+  "tool-bar":
+    position: "Left"
+  "git-diff":
+    showIconsInEditorGutter: true
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  tabs:
+    enableVcsColoring: true
+  "ctags-status":
+    outerScope: true
+  "language-babel": {}
+  "git-plus": {}
+  pigments: {}
+  autoprefixer: {}
+  "atom-beautify":
+    js_space_after_anon_function: true
+  "project-manager":
+    closeCurrent: true
+".html.php.text":
+  editor:
+    tabLength: 4
