@@ -1,14 +1,10 @@
 "*":
-  editor:
-    confirmCheckoutHeadRevision: false
-    fontFamily: "Monaco"
-    fontSize: 14
-    invisibles: {}
-    scrollPastEnd: true
-    showIndentGuide: true
-    showInvisibles: true
-    tabType: "soft"
+  "atom-beautify":
+    js_space_after_anon_function: true
+  autoprefixer: {}
   core:
+    audioBeep: false
+    autoHideMenuBar: true
     disabledPackages: [
       "about"
       "archive-view"
@@ -41,12 +37,6 @@
       "language-perl"
       "language-toml"
     ]
-    audioBeep: false
-    themes: [
-      "atom-material-ui"
-      "gruvbox"
-    ]
-    autoHideMenuBar: true
     ignoredNames: [
       "._*"
       ".apm"
@@ -68,33 +58,43 @@
       "node_modules"
       "vendor"
     ]
+    themes: [
+      "atom-material-ui"
+      "gruvbox"
+    ]
+  "ctags-status":
+    outerScope: true
+  editor:
+    confirmCheckoutHeadRevision: false
+    fontFamily: "Monaco"
+    fontSize: 14
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "git-diff":
+    showIconsInEditorGutter: true
+  "git-plus": {}
+  "language-babel": {}
+  "markdown-preview":
+    useGitHubStyle: true
+  pigments: {}
+  "project-manager":
+    closeCurrent: true
+  tabs:
+    enableVcsColoring: true
+  "tool-bar":
+    position: "Left"
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
-  "tree-view":
-    hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
-  "markdown-preview":
-    useGitHubStyle: true
-  "tool-bar":
-    position: "Left"
-  "git-diff":
-    showIconsInEditorGutter: true
-  "file-watcher":
-    promptWhenFileHasChangedOnDisk: false
-  tabs:
-    enableVcsColoring: true
-  "ctags-status":
-    outerScope: true
-  "language-babel": {}
-  "git-plus": {}
-  pigments: {}
-  autoprefixer: {}
-  "atom-beautify":
-    js_space_after_anon_function: true
-  "project-manager":
-    closeCurrent: true
 ".html.php.text":
   editor:
-    tabLength: 4
+    tabLength: 2
