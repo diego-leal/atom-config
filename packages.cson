@@ -3,16 +3,10 @@ autoclose-html
 angularjs
 editorconfig
 emmet
-stylus
 color-picker
-atom-beautify
-autoclose-html
 file-icons
 language-javascript-jsx
 es6-javascript
 git-plus
 atom-ternjs
-behave-theme
-jsfiddle-like-syntax
-atom-material-syntax
-one-dark-italic-syntax
+monokai

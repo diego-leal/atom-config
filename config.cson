@@ -36,6 +36,8 @@
       "language-objective-c"
       "language-perl"
       "language-toml"
+      "autocomplete-modules"
+      "autocomplete-paths"
     ]
     ignoredNames: [
       "._*"
@@ -59,19 +61,20 @@
       "vendor"
     ]
     themes: [
-      "atom-material-ui"
-      "gruvbox"
+      "one-dark-ui"
+      "monokai"
     ]
   "ctags-status":
     outerScope: true
   editor:
+    autoIndentOnPaste: false
     confirmCheckoutHeadRevision: false
-    fontFamily: "Monaco"
+    fontFamily: "Sans"
     fontSize: 14
     invisibles: {}
-    scrollPastEnd: true
+    scrollPastEnd: false
     showIndentGuide: true
-    showInvisibles: true
+    showInvisibles: false
     tabType: "soft"
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
@@ -97,4 +100,4 @@
     ignoreWhitespaceOnCurrentLine: false
 ".html.php.text":
   editor:
-    tabLength: 2
+    tabLength: 4
