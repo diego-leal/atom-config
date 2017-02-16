@@ -69,7 +69,7 @@
   editor:
     autoIndentOnPaste: false
     confirmCheckoutHeadRevision: false
-    fontFamily: "Sans"
+    fontFamily: "Comic Sans MS"
     fontSize: 14
     invisibles: {}
     scrollPastEnd: false
