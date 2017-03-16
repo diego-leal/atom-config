@@ -6,8 +6,13 @@
 git clone https://github.com/diego-leal/atom-config.git
 # Access folder
 cd ./atom-config
-# Install preferences
+# Install preferences packages
 apm install --packages-file packages.cson
+# Add font
+mkdir ~/.fonts
+cp -r mononoki ~/.fonts
+# Set configs
+cp config.cson ~/.atom/
 ```
 
 
