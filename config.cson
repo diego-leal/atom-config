@@ -36,8 +36,6 @@
       "language-objective-c"
       "language-perl"
       "language-toml"
-      "autocomplete-modules"
-      "autocomplete-paths"
     ]
     ignoredNames: [
       "._*"
@@ -69,7 +67,7 @@
   editor:
     autoIndentOnPaste: false
     confirmCheckoutHeadRevision: false
-    fontFamily: "Comic Sans MS"
+    fontFamily: "Mononoki"
     fontSize: 14
     invisibles: {}
     scrollPastEnd: false
@@ -100,4 +98,4 @@
     ignoreWhitespaceOnCurrentLine: false
 ".html.php.text":
   editor:
-    tabLength: 4
+    tabLength: 2
