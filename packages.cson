@@ -9,3 +9,5 @@ es6-javascript
 git-plus
 atom-ternjs
 monokai
+linter
+linter-eslint
