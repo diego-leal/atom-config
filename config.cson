@@ -68,11 +68,11 @@
     autoIndentOnPaste: false
     confirmCheckoutHeadRevision: false
     fontFamily: "Mononoki"
-    fontSize: 14
+    fontSize: 15
     invisibles: {}
-    scrollPastEnd: false
+    scrollPastEnd: true
     showIndentGuide: true
-    showInvisibles: false
+    showInvisibles: true
     tabType: "soft"
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
